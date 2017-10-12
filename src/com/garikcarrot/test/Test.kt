@@ -12,5 +12,4 @@ fun main(args: Array<String>) {
     XRandR.getScreenNames().forEach { s ->
         XRandR.getResolutions(s).forEach { t -> println(t) }
     }
-    syste
 }
